@@ -1,14 +1,15 @@
 <?php
 
 function getConnection() {
-    $host = "sql303.infinityfree.com";
-    $dbname = "if0_42196501_casatop";
-    $user = "if0_42196501";
-    $pass = "KzPIwqafckf46kV";
+    $host = "gnzxub.h.filess.io";
+    $port = "3307";
+    $dbname = "casatopem22001_happilydry";
+    $user = "casatopem22001_happilydry";
+    $pass = "318c8347950579e0fff938ffca3e83214808b2cc4";
 
     try {
         $conexion = new PDO(
-            "mysql:host=$host;dbname=$dbname;charset=utf8",
+            "mysql:host=$host;port=$port;dbname=$dbname;charset=utf8",
             $user,
             $pass
         );
